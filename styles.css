@@ -1,0 +1,28 @@
+body {
+   font-family: 'Srisakdi', cursive;
+   color:brown;
+}
+
+.container, .results {
+    width: 400px;
+    padding: 20px;
+    margin: 50px auto;
+    border: 5px solid red;
+    border-radius: 20px;
+    background-color: white;
+    
+    transition: background-color .5s ease-in-out;
+    transition: border .2s ease-in-out;
+    background-image: url("https://cdn2.vectorstock.com/i/1000x1000/77/71/bright-glowing-crystal-ball-for-fortune-vector-3707771.jpg");
+    background-position:center;
+    background-size: 460px,40px;
+    
+}
+
+   
+
+
+.container:hover {
+    background-color:#eeffff;
+    border-color: #eeffff;
+}
